@@ -1,13 +1,13 @@
 name: Test Project
 
 on:
-  push:    # Add this to trigger workflow on push
+  push: 
     branches:
       - main
   pull_request:
     branches:
       - main
-  workflow_dispatch:  # Allows manual trigger
+  workflow_dispatch:  
 
 jobs:
   test:
